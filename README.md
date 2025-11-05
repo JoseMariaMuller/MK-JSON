@@ -30,8 +30,8 @@ Para probar el proyecto en tu máquina:
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/JoseMariaMuller/MK-JSON.git](https://github.com/JoseMariaMuller/MK-JSON.git)
-    cd mortal-kombat-react
+    git clone [https://github.com/JoseMariaMuller/MK-JSON.git]
+    cd mortal-kombat-react (o la carpeta que quieras llamar)
     ```
 
 2.  **Instalar dependencias:**
