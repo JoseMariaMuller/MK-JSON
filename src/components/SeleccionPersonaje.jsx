@@ -54,7 +54,7 @@ function SeleccionPersonaje({ personajes, onSeleccionar }) {
                 </button>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 overflow-visible">
+            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6 overflow-visible">
                 {personajesFiltrados.length > 0 ? (
                     personajesFiltrados.map((personaje) => (
                         <div

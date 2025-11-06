@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import SeleccionPersonaje from './components/SeleccionPersonaje';
 import ArenaCombate from './components/ArenaCombate';
 // 1. IMPORTAMOS DIRECTAMENTE EL JSON LOCAL (la "base de datos")
-import personajesData from './data/personajesData'; 
+import personajesData from './data/personajesData';
 
 // Eliminamos la constante API_URL, ya no es necesaria.
 
@@ -72,9 +72,15 @@ function App() {
 
     return (
         <div
-            className={`min-h-screen bg-gray-900 text-white p-8 transition-opacity duration-700 ${
-                mostrarApp ? 'opacity-100' : 'opacity-0'
-            }`}
+            className={`min-h-screen bg-gray-900 text-white p-8 transition-opacity duration-700 ${mostrarApp ? 'opacity-100' : 'opacity-0'
+                }`}
+            style={{
+                backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url('https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2016/01/556580-mortal-kombat-xl-trailer-edicion-completa-mortal-kombat-x.jpg?tf=640x')",
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundAttachment: 'fixed',
+                backgroundRepeat: 'no-repeat'
+            }}
         >
             <header className="text-center mb-10 flex flex-col items-center gap-4">
                 <img
