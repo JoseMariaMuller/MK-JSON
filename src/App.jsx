@@ -75,7 +75,7 @@ function App() {
             className={`min-h-screen bg-gray-900 text-white p-8 transition-opacity duration-700 ${mostrarApp ? 'opacity-100' : 'opacity-0'
                 }`}
             style={{
-                backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url('https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2016/01/556580-mortal-kombat-xl-trailer-edicion-completa-mortal-kombat-x.jpg?tf=640x')",
+                background: "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6))",
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundAttachment: 'fixed',
